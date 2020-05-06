@@ -24,31 +24,3 @@ else
 	done
 	set echo;  firefox https://www.linkedin.com/search/results/index/?keywords=$search 2>/dev/null &
 fi
-
-
-#(set echo; firefox "https://linkedin.com/search/results/people/?type=all&keywords=$1:q+$2:q+$3:q+$4:q+$5:q+$6:q+$7:q+$8:q+$9:q+$10:q+$11:q+$12:q+$13:q+$14:q+$15:q+$16:q+$17:q+$18:q+$19:q+$20:q")
-# 1/19/2020: Stopped working a while back
-# "https://linkedin.com/search/results/index/?type=all&keywords=$1:q+$2:q+$3:q+$4:q+$5:q+$6:q+$7:q+$8:q+$9:q+$10:q+$11:q+$12:q+$13:q+$14:q+$15:q+$16:q+$17:q+$18:q+$19:q+$20:q"
-
-# 2/14/2019: Stopped working a while back
-# "http://www.linkedin.com/vsearch/f?type=all&keywords=$1:q+$2:q+$3:q+$4:q+$5:q+$6:q+$7:q+$8:q+$9:q+$10:q+$11:q+$12:q+$13:q+$14:q+$15:q+$16:q+$17:q+$18:q+$19:q+$20:q"
-
-# 2/14/2019: These all work:
-# 
-#open https://www.linkedin.com/search/results/index/?keywords=firstname:"mark" AND lastname:"larzelere" AND company:"QVC"&origin=GLOBAL_SEARCH_HEADER
-# 
-# https://www.linkedin.com/search/results/index/?keywords=firstname:"mark" AND lastname:"larzelere" AND company:"QVC"
-# 
-# https://www.linkedin.com/search/results/index/?keywords=firstname:"mark" AND lastname:"larzelere" AND company:"QVC"
-# 
-# https://www.linkedin.com/search/results/index/?keywords=firstname:"mark" AND lastname:"larzelere"
-# 
-# https://www.linkedin.com/search/results/index/?keywords="mark" AND "larzelere"
-# 
-# https://www.linkedin.com/search/results/index/?keywords="mark larzelere"
-# 
-# https://www.linkedin.com/search/results/index/?keywords=mark larzelere
-# 
-# https://www.linkedin.com/search/results/index/?keywords=larzelere
-# 
-# https://www.linkedin.com/search/results/index/?keywords=mark
